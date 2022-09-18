@@ -1,0 +1,60 @@
+.head {
+	color: greenyellow;
+}
+
+.subtitle,
+.title {
+	font-size: 30px
+
+}
+.title p{
+	font-size: 16px;
+}
+h3.subtitle{
+	color: brown;
+}
+h3{
+	color: darksalmon;
+}
+
+.episodes .episodes1{
+	color: aqua;
+
+}
+.episodes .episodes1 .name__episode.title{
+	color: rgb(141, 22, 96);
+}
+
+
+.production ~ p{
+	color: blue;
+	
+
+}
+.development + p{
+	color: blueviolet;
+}
+.perception > p{
+color: green;
+}
+.perception > p ~ p{
+	color: red;
+	
+
+}
+
+div .bloc .block-text p ~ div > p >a{
+	color: brown;
+}
+
+	
+
+footer .link .link-top p ~ div > p + span{
+	color: red;
+}
+
+footer .link .link-top p ~ div > p > a {
+	color: green;
+	
+}
+
